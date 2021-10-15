@@ -2,33 +2,30 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Written by anusO1
-// For DevingOnDiscord
-
-int x;
+int o_c2ebff93fdce6adf5a49a4616d4ffb0f;
 
 int main() {
-	speak();
-	return 0;
-}
+    o_c045ca7c579d484fe3c61667634c5c2b();
+    return (0x0000000000000000 + 0x0000000000000200 + 0x0000000000000800 - 0x0000000000000A00);
+};
 
-int speak() {
-	srand(time(NULL));
-	int z = rand() % 20;
-	int y = rand() % 17;
-	int x = z + y;
-	if (x % 2 == 0) {
-		x++;
-		int x = x + rand();
-		speak();
-	} else if (x % 5 == 0) {
-		srand(time(NULL));
-		x = x + 14;
-		x = x + rand();
-		speak();
-	} else if (x % 3 == 0) {
-		printf("Hello, World\n");
-	} else {
-		printf("Hello, DevingOnDiscord\n");
-	}
-}
+int o_c045ca7c579d484fe3c61667634c5c2b() {
+    srand(time(NULL));
+    int o_3d033b904eb1d29d7f45a7bc8b7273eb=rand() % (0x0000000000000028 + 0x0000000000000214 + 0x0000000000000814 - 0x0000000000000A3C);
+    int o_1c1f6954a176aa2a59b42d7ca8eb962f=rand() % (0x0000000000000022 + 0x0000000000000211 + 0x0000000000000811 - 0x0000000000000A33);
+    int o_adb0124d05cdda91e9fba22b45db1e2d=o_3d033b904eb1d29d7f45a7bc8b7273eb + o_1c1f6954a176aa2a59b42d7ca8eb962f;
+    if (!(o_adb0124d05cdda91e9fba22b45db1e2d % (0x0000000000000004 + 0x0000000000000202 + 0x0000000000000802 - 0x0000000000000A06) ^ 0x0000000000000000)) {
+        o_adb0124d05cdda91e9fba22b45db1e2d++;
+        int o_b81a6d1c4c11d9ff5f9402e11509b462=o_b81a6d1c4c11d9ff5f9402e11509b462 + rand();
+        o_c045ca7c579d484fe3c61667634c5c2b();
+        
+    } else if (!(o_adb0124d05cdda91e9fba22b45db1e2d % (0x000000000000000A + 0x0000000000000205 + 0x0000000000000805 - 0x0000000000000A0F) ^ 0x0000000000000000)) {
+        srand(time(NULL));
+        o_adb0124d05cdda91e9fba22b45db1e2d = o_adb0124d05cdda91e9fba22b45db1e2d + (0x000000000000001C + 0x000000000000020E + 0x000000000000080E - 0x0000000000000A2A);
+        o_adb0124d05cdda91e9fba22b45db1e2d = o_adb0124d05cdda91e9fba22b45db1e2d + rand();
+        o_c045ca7c579d484fe3c61667634c5c2b();
+    } else if (!(o_adb0124d05cdda91e9fba22b45db1e2d % (0x0000000000000006 + 0x0000000000000203 + 0x0000000000000803 - 0x0000000000000A09) ^ 0x0000000000000000)) {
+        printf("\x48""e\154l\x6F"",\040W\x6F""r\154d\x0A""");
+    } else {
+        printf("\x48""e\154l\x6F"",\040G\x69""t\110u\x62""\x0A");
+};;;};
